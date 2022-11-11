@@ -39,12 +39,15 @@
   <main>
 
   </main>
-  <div class="remodal" data-remodal-id="modal">
+  <div class="remodal bl_modal" data-remodal-id="modal">
     <button data-remodal-action="close" class="remodal-close"></button>
     <div class="hp_aspect hp_aspect__16-9">
-      <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/j1hft9Wjq9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="js_modalVideo" width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/j1hft9Wjq9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <!-- /.hp_aspect hp_aspect__16-9 -->
-    <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8JU7DetRbaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <div class="bl_modalBtnUnit">
+      <button class="bl_modalBtn" onclick="servVideo('www.youtube-nocookie.com/embed/8JU7DetRbaI');"></button>
+      <button class="bl_modalBtn" onclick="servVideo('www.youtube-nocookie.com/embed/8JU7DetRbaI');"></button>
+    </div>
+    <!-- /.bl_modalBtnUnit -->
 </body>
 </html>
