@@ -39,6 +39,10 @@ input, textarea, button, select {
   margin-top: 32px;
 }
 
+main {
+  height: 200vh;
+}
+
 .bl_headerConts {
   padding: 0 16px;
   text-align: center;
