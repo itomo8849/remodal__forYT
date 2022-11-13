@@ -5,13 +5,13 @@
 
 
 ## Remodalの実装
-  ###読み込みファイル<br>
+  ### 読み込みファイル<br>
   ・remodal-default-theme.css<br>
   ・remodal.css<br>
   ・remodal.min.js<br>
   ・jQuery
 
-  ###HTML<br>
+  ### HTML<br>
   ・モーダル表示したい要素<br>
   ```html
   <div class="remodal" data-remodal-id="modal">
