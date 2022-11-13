@@ -39,7 +39,30 @@
   background: transparent;
 }
 .remodal-close{
-  top: -40px;
+  top: 0;
   right: 0;
   left: auto;
+  transform: translateY(-100%);
+}
+.bl_modalBtnUnit{
+  padding: 8px 0;
+  background: #fff;
+}
+.bl_modalBtn{
+  width: 200px;
+  margin: 0 8px;
+  background: var.$pointColorGray;
+  border: none;
+  border-radius: 8px;
+  color: var.$pointColorBlue;
+  font-family: var.$alphabetFont;
+  line-height: 56px;
+  font-weight: bold;
+  transition: all .3s;
+}
+.bl_modalBtn.is_active,
+.bl_modalBtn:hover{
+  color: #fff;
+  background: var.$pointColorYellow;
+  cursor: pointer;
 }

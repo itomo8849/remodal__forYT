@@ -87,9 +87,35 @@ main {
 }
 
 .remodal-close {
-  top: -40px;
+  top: 0;
   right: 0;
   left: auto;
+  transform: translateY(-100%);
+}
+
+.bl_modalBtnUnit {
+  padding: 8px 0;
+  background: #fff;
+}
+
+.bl_modalBtn {
+  width: 200px;
+  margin: 0 8px;
+  background: #eee;
+  border: none;
+  border-radius: 8px;
+  color: #6496ab;
+  font-family: "Montserrat", sans-serif;
+  line-height: 56px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.bl_modalBtn.is_active,
+.bl_modalBtn:hover {
+  color: #fff;
+  background: #f5be48;
+  cursor: pointer;
 }
 
 .hp_aspect {
