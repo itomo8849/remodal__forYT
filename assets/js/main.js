@@ -1,5 +1,5 @@
 window.onload = function () {
-  document.getElementById( "remodal-btn" ).click();
+  document.getElementById( "js_remodalBtn" ).click();
 }
 function servVideo(anything,clickElement){
   document.querySelector('.js_modalVideo').src = 'https://'+anything;
