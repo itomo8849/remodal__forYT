@@ -14,7 +14,7 @@
   ### HTML<br>
   ・モーダル表示したい要素<br>
   ```html
-  <div class="remodal" data-remodal-id="modal">
+  <div class="remodal" data-remodal-id="modal">...</div>
   ```
   ・aタグ
   ```html
